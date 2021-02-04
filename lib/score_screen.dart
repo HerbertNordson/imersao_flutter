@@ -73,10 +73,7 @@ class ScoreScreen extends StatelessWidget {
             child: Center(
               child: FlatButton(
                 onPressed: () {
-                  Navigator.popUntil(
-                    context,
-                    (route) => route.isFirst,
-                  );
+                  Navigator.popUntil(context, (route) => route.isFirst,);
                 },
                 child: Text('Jogar Novamente'),
                 color: Color(0xffDA0175),
